@@ -11,3 +11,4 @@ This is the source code of my homepage [dignified.code](http://dignifiedquire.gi
 * Setup an about section
 * Setup Mathjx 
 * get the domain dignifiedcode.com
+* remove boilerplate content and add my own
