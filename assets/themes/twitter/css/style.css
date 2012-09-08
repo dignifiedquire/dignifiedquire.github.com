@@ -40,6 +40,17 @@ div.center{
   border: 0;
 }
 
+/* Responsive stuff */
+
+@media (max-width: 767px) {
+  .container {
+    position: fixed;
+    left: 0;
+  }  
+  .content {
+      padding: 15px;
+    }
+}
 
 /* tag_box ======================================================== */
 
