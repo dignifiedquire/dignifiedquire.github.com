@@ -47,6 +47,7 @@ div.center{
 	list-style:none;
 	margin:0;
 	padding:5px 0 ;
+	padding-bottom: 20px;
 	overflow:hidden;
 }
 .tag_box li {
