@@ -44,8 +44,7 @@ div.center{
 
 @media (max-width: 767px) {
   .container {
-    position: fixed;
-    left: 0;
+
   }  
   .content {
       padding: 15px;
