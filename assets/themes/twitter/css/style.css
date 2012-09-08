@@ -3,19 +3,40 @@ html, body {
   font-family: 'Lora', serif;
   background: url("../img/whitey.png") repeat #eee;
 }
-.navbar {
-  margin-bottom: 0;
-}
 body {
   padding-top: 60px;
   padding-bottom: 40px;
-
 }
 
-h1, h2, h3, h4 {
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar .brand {
+  float: right;
+  padding-right: 5px;
+  font-family: 'Abril Fatface', cursive;
+}
+.navbar .brand:hover{
+  color: #555;
+}
+.navbar .nav > li > a {
+  font-style: italic;
+}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+  box-shadow: none;
+  background: none;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Abril Fatface', cursive;
 }
 
+
+emph {
+  font-style: italic;
+}
 .container > footer {
   margin-top: 20px;
 }
@@ -25,6 +46,7 @@ h1, h2, h3, h4 {
 
 /* The white background content wrapper */
 .content {
+  min-height: 300px;
   background-color: #fff;
 
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
@@ -43,9 +65,6 @@ div.center{
 /* Responsive stuff */
 
 @media (max-width: 767px) {
-  .container {
-
-  }  
   .content {
       padding: 15px;
     }
